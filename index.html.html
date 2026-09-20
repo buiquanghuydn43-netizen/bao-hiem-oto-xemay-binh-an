@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bảo Hiểm Bình An</title>
+<meta name="description" content="Bảo Hiểm Bình An - Bảo hiểm ô tô, xe máy, thân vỏ, cháy nổ và bảo hiểm quốc tế.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;color:#18202a;background:#f7f9fc;line-height:1.6}
+.container{max-width:1100px;margin:auto;padding:0 20px}
+header{background:linear-gradient(135deg,#071b3a,#123d73);color:#fff;padding:18px 0}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:25px;font-weight:800;letter-spacing:.5px}
+.logo span{color:#f4c542}
+.nav a{color:#fff;text-decoration:none;margin-left:20px;font-weight:600}
+.hero{background:linear-gradient(135deg,#0b2550,#1765a8);color:#fff;padding:80px 0}
+.hero-grid{display:grid;grid-template-columns:1.4fr .8fr;gap:40px;align-items:center}
+.hero h1{font-size:48px;line-height:1.1;margin-bottom:18px}
+.hero p{font-size:20px;opacity:.92;margin-bottom:28px}
+.btn{display:inline-block;padding:14px 22px;border-radius:10px;text-decoration:none;font-weight:700;margin:5px}
+.btn-main{background:#f4c542;color:#111}
+.btn-light{background:#fff;color:#123d73}
+.hero-card{background:#fff;color:#18202a;padding:28px;border-radius:18px;box-shadow:0 15px 40px #0003}
+.hero-card h3{color:#123d73;margin-bottom:12px}
+.phone{font-size:28px;font-weight:800;color:#0b5aa0}
+section{padding:65px 0}
+.title{text-align:center;margin-bottom:35px}
+.title h2{font-size:32px;color:#102c55}
+.title p{color:#667085}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;padding:28px;border-radius:16px;box-shadow:0 5px 22px #14213d12;border:1px solid #e8edf4}
+.icon{font-size:38px;margin-bottom:12px}
+.card h3{margin-bottom:8px;color:#123d73}
+.why{background:#eef5fb}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.why-item{background:#fff;padding:24px;border-radius:15px}
+.contact{background:#0b2550;color:#fff;text-align:center}
+.contact h2{font-size:34px;margin-bottom:10px}
+footer{background:#06172f;color:#b9c5d6;text-align:center;padding:25px}
+@media(max-width:750px){
+ .nav{flex-direction:column}.nav a{margin:0 7px}
+ .hero{padding:55px 0}.hero-grid{grid-template-columns:1fr}
+ .hero h1{font-size:38px}.cards,.why-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">🛡️ BẢO HIỂM <span>BÌNH AN</span></div>
+    <div>
+      <a href="#dichvu">Dịch vụ</a>
+      <a href="#lienhe">Liên hệ</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>An tâm hôm nay,<br>vững vàng ngày mai.</h1>
+      <p>Giải pháp bảo hiểm phù hợp cho ô tô, xe máy, thân vỏ, cháy nổ và nhu cầu bảo hiểm quốc tế.</p>
+      <a class="btn btn-main" href="tel:0987570924">📞 GỌI NGAY</a>
+      <a class="btn btn-light" href="#lienhe">💬 NHẬN BÁO GIÁ</a>
+    </div>
+    <div class="hero-card">
+      <h3>Tư vấn bảo hiểm</h3>
+      <p>Liên hệ để được tư vấn nhanh và lựa chọn gói bảo hiểm phù hợp.</p>
+      <div class="phone">0987.570.924</div>
+      <p>Hotline hỗ trợ</p>
+    </div>
+  </div>
+</section>
+
+<section id="dichvu">
+  <div class="container">
+    <div class="title">
+      <h2>Dịch vụ bảo hiểm</h2>
+      <p>Các sản phẩm bảo hiểm phổ biến dành cho cá nhân và gia đình</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="icon">🚗</div><h3>Bảo hiểm ô tô</h3><p>Giải pháp bảo vệ xe và tài chính trước những rủi ro trong quá trình sử dụng.</p></div>
+      <div class="card"><div class="icon">🏍️</div><h3>Bảo hiểm xe máy</h3><p>Tư vấn các gói bảo hiểm phù hợp với nhu cầu sử dụng xe máy.</p></div>
+      <div class="card"><div class="icon">🛡️</div><h3>Bảo hiểm thân vỏ</h3><p>Hỗ trợ bảo vệ phần thân vỏ xe trước các rủi ro theo điều khoản hợp đồng.</p></div>
+      <div class="card"><div class="icon">🔥</div><h3>Bảo hiểm cháy nổ</h3><p>Tư vấn giải pháp bảo vệ tài sản trước các rủi ro cháy, nổ theo quy định.</p></div>
+      <div class="card"><div class="icon">🌍</div><h3>Bảo hiểm quốc tế</h3><p>Tư vấn các nhu cầu bảo hiểm phục vụ học tập, du lịch và công tác quốc tế.</p></div>
+      <div class="card"><div class="icon">💬</div><h3>Tư vấn & báo giá</h3><p>Liên hệ để được tư vấn sản phẩm và nhận báo giá theo nhu cầu thực tế.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="container">
+    <div class="title"><h2>Vì sao chọn Bảo Hiểm Bình An?</h2></div>
+    <div class="why-grid">
+      <div class="why-item"><h3>⚡ Tư vấn nhanh</h3><p>Tiếp nhận nhu cầu và hỗ trợ thông tin nhanh chóng.</p></div>
+      <div class="why-item"><h3>🤝 Tận tâm</h3><p>Giải thích rõ ràng để khách hàng dễ hiểu trước khi lựa chọn.</p></div>
+      <div class="why-item"><h3>📋 Hỗ trợ hồ sơ</h3><p>Đồng hành và hỗ trợ khách hàng trong quá trình sử dụng dịch vụ.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="lienhe">
+  <div class="container">
+    <h2>Cần tư vấn bảo hiểm?</h2>
+    <p>Gọi ngay để được tư vấn và nhận báo giá.</p>
+    <br>
+    <a class="btn btn-main" href="tel:0987570924">📞 0987.570.924</a>
+    <a class="btn btn-light" href="https://zalo.me/0987570924" target="_blank">💬 NHẮN ZALO</a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>BẢO HIỂM BÌNH AN</strong></p>
+  <p>Hotline: 0987.570.924</p>
+  <p>© 2026 Bảo Hiểm Bình An. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
